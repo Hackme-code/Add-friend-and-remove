@@ -23,6 +23,26 @@ body{
     object-position: center;
     border-radius: 10px;
 }
+
+.icon1{
+    position: absolute;
+    color: pink;
+    font-size: 70px;
+    top: 50%;
+    left: 45%;
+    transform: translate((-50%,-50%));
+    opacity: 0;
+}
+.icon2{
+    position: absolute;
+    color: red;
+    font-size: 70px;
+    top: 50%;
+    left: 45%;
+    transform: translate((-50%,-50%));
+    opacity: 0;
+}
+
 #card h3{
     text-align: center;
     color: blue;
@@ -47,12 +67,16 @@ button{
     margin: 0 5px;
     border-radius: 40px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 #btn-container #add{
     background-color:lightgreen;
 }
 #btn-container #removefrnd{
     background-color: #dada;
+}
+#btn-container #block{
+    background-color: Red;
 }
 
 
